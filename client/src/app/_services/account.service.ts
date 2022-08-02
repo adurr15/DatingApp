@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { ReplaySubject } from 'rxjs';
 import {map} from 'rxjs/operators';
 import { User } from '../_models/user';
+
 @Injectable({
   providedIn: 'root' // services are injectable and a singleton 
 })
